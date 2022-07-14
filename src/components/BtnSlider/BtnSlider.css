@@ -1,0 +1,25 @@
+.btn {
+  display: flex;
+  font-size: 1.25rem;
+  padding: 0.5em;
+  color: #ccc;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(204, 204, 204, 0.5);
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.next {
+  right: -15%;
+}
+
+.prev {
+  left: -15%;
+}
